@@ -1,0 +1,9 @@
+# essential-tuple-lake/ports — sibling repos to compose with (sink -> source).
+#
+# This is the store at the bottom of the stack; it has no upstream siblings. Downstream consumers
+# write via RelationSink and read via RelationSource:
+#   corpus-relation-ingest   -> RelationSink   (datasets -> relations)
+#   unified-modal-embedder   -> RelationSink   (embeddings)
+#   voxel-slat-encoder       -> RelationSink   (mesh SLAT)
+#   pose-anny-phenotype      -> RelationSink   (phenotype)
+#   semantic-code-oracle     -> RelationSource (reads the assembled features)

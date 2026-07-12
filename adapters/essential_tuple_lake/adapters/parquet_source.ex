@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
+# Copyright (c) 2026 K. S. Ernest (iFire) Lee and weftspun contributors
+
 defmodule EssentialTupleLake.Adapters.ParquetSource do
   @moduledoc "`RelationSource` over Explorer/Polars parquet — reads `<lake_dir>/<name>.parquet` to rows."
 

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
+# Copyright (c) 2026 K. S. Ernest (iFire) Lee and weftspun contributors
+
 defmodule EssentialTupleLake.Core.Identity do
   @moduledoc """
   Deterministic UUIDv5 entity keys — the content-addressable ETNF identity.
